@@ -98,11 +98,11 @@ const values = Object.values(formdata);
 
 
 
+export default app;
 
 
+// const PORT = process.env.PORT || 9000
 
-const PORT = process.env.PORT || 9000
-
-app.listen(PORT,()=>{
-    console.log(`APP running on PORT http://localhost:${PORT}`)
-})
+// app.listen(PORT,()=>{
+//     console.log(`APP running on PORT http://localhost:${PORT}`)
+// })
